@@ -1,1 +1,1 @@
-# Classwork-JS
+# mentoring-simple-webpack-starter
