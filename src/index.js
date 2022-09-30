@@ -95,14 +95,30 @@
 // };
 // fun(list)
 
-const str = 'aaa bbb ccc'
+// const str = 'aaa bbb ccc'
 
 
-// console.log(str.substring(4,7))
-// console.log(str.slice(4,7))
+// // console.log(str.substring(4,7))
+// // console.log(str.slice(4,7))
 
-const search = str.indexOf('bbb');
-console.log(str.slice(search, search+3))
+// const search = str.indexOf('bbb');
+// console.log(str.slice(search, search+3))
+
+
+// let array = [2,3,4, undefined, null, '', false, 5,6,0];
+// let arr = array.filter(Boolean)
+// console.log(arr)
+
+
+
+let sumInput = [1,2,3,4,5]
+let sum = sumInput.reduce((a,b) => {
+    return a+b
+},0)
+console.log (sum)
+
+
+
 
 
 
